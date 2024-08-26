@@ -337,6 +337,16 @@ return [
             'icon' => 'fas fa-fw fa-lock',
         ],
         [
+            'text' => 'Proveedores',
+            'url' => 'suppliers',
+            'icon' => 'fas fa-fw fa-lock',
+        ],
+        [
+            'text' => 'Lista de Inventarios',
+            'url' => 'inventarios',
+            'icon' => 'fas fa-fw fa-lock',
+        ],
+        [
             'text' => 'multilevel',
             'icon' => 'fas fa-fw fa-share',
             'submenu' => [

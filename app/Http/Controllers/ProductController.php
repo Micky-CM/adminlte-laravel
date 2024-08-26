@@ -33,7 +33,7 @@ class ProductController extends Controller
             'description' => 'required',
             'price' => 'required|numeric'
         ]);
-        $product::update($request->all());
+        $product->update($request->all());
         return redirect()->route('products.index')->with('success', 'El producto se ha modificado correctamente');
     }
 
