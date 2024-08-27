@@ -6,6 +6,8 @@ use App\Http\Controllers\ProductController;
 use App\Http\Controllers\InventoryController;
 use App\Http\Controllers\SupplierController;
 use App\Http\Controllers\InventarioController;
+use App\Http\Controllers\ClientController;
+use App\Http\Controllers\AppointmentController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -28,3 +30,5 @@ Route::resource('products', ProductController::class);
 Route::resource('inventories', InventoryController::class);
 Route::resource('suppliers', SupplierController::class);
 Route::resource('inventarios', InventarioController::class);
+Route::resource('clients', ClientController::class);
+Route::resource('appointments', AppointmentController::class);

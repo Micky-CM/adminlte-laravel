@@ -1,7 +1,5 @@
 @extends('adminlte::page')
-
 @section('title', 'Editar Product')
-
 @section('content_header')
     <h1>Editar Inventario</h1>@stop
 @section('content')

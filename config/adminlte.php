@@ -322,11 +322,6 @@ return [
             'icon' => 'fas fa-fw fa-user',
         ],
         [
-            'text' => 'change_password',
-            'url' => 'admin/settings',
-            'icon' => 'fas fa-fw fa-lock',
-        ],
-        [
             'text' => 'Productos',
             'url' => 'products',
             'icon' => 'fas fa-fw fa-lock',
@@ -345,6 +340,16 @@ return [
             'text' => 'Lista de Inventarios',
             'url' => 'inventarios',
             'icon' => 'fas fa-fw fa-lock',
+        ],
+        [
+            'text' => 'Clientes',
+            'url' => 'clients',
+            'icon' => 'fas fa-fw fa-user',
+        ],
+        [
+        'text' => 'Reuniones',
+        'url' => 'appointments',
+        'icon' => 'fas fa-fw fa-user',
         ],
         [
             'text' => 'multilevel',

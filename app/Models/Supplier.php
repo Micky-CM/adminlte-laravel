@@ -10,7 +10,7 @@ class Supplier extends Model
     use HasFactory;
     protected $fillable = ['name', 'email', 'phone', 'address'];
 
-    public function inventorieslist(){
+    public function inventario(){
         return $this->hasMany(Inventario::class);
     }
 }

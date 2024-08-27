@@ -15,8 +15,8 @@
             <p><strong>Proveedor: </strong>{{$inventario->supplier_id}}</p>
         </div>
         <div class="card-footer">
-            <a href="{{route('inventarios.index')}}" class="btn btn-primary">Volver</a>
-            <a href="{{route('inventarios.edit', $inventario)}}" class="btn btn-secondary">Modificar</a>
+            <a href="{{route('inventarios.index')}}" class="btn btn-secondary">Volver</a>
+            <a href="{{route('inventarios.edit', $inventario)}}" class="btn btn-primary">Modificar</a>
             <form action="{{route('inventarios.destroy', $inventario)}}" method="POST" style="display: inline;">
                 @csrf
                 @method('DELETE')
