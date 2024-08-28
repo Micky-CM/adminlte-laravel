@@ -8,6 +8,9 @@ use App\Http\Controllers\SupplierController;
 use App\Http\Controllers\InventarioController;
 use App\Http\Controllers\ClientController;
 use App\Http\Controllers\AppointmentController;
+use App\Http\Controllers\DepartmentController;
+use App\Http\Controllers\PositionController;
+use App\Http\Controllers\EmployeeController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -32,3 +35,6 @@ Route::resource('suppliers', SupplierController::class);
 Route::resource('inventarios', InventarioController::class);
 Route::resource('clients', ClientController::class);
 Route::resource('appointments', AppointmentController::class);
+Route::resource('departments', DepartmentController::class);
+Route::resource('positions', PositionController::class);
+Route::resource('employees', EmployeeController::class);
